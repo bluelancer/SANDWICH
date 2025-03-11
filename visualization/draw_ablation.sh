@@ -1,0 +1,1 @@
+python draw_ablation.py --env_index 1 --add_noise True --noise_sample 5 --add_type_loss True --allTx True

@@ -1,0 +1,1 @@
+interactive --gpus 1 --reservation=1g.10gb

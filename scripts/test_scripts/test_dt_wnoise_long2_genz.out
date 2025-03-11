@@ -1,0 +1,48 @@
+no change     /proj/gaia/RayDT/mamba_ray/condabin/conda
+no change     /proj/gaia/RayDT/mamba_ray/bin/conda
+no change     /proj/gaia/RayDT/mamba_ray/bin/conda-env
+no change     /proj/gaia/RayDT/mamba_ray/bin/activate
+no change     /proj/gaia/RayDT/mamba_ray/bin/deactivate
+no change     /proj/gaia/RayDT/mamba_ray/etc/profile.d/conda.sh
+no change     /proj/gaia/RayDT/mamba_ray/etc/fish/conf.d/conda.fish
+no change     /proj/gaia/RayDT/mamba_ray/shell/condabin/Conda.psm1
+no change     /proj/gaia/RayDT/mamba_ray/shell/condabin/conda-hook.ps1
+no change     /proj/gaia/RayDT/mamba_ray/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /proj/gaia/RayDT/mamba_ray/etc/profile.d/conda.csh
+no change     /home/x_yifji/.bashrc
+No action taken.
+config =  {'env_index': 2, 'add_surface_index': False, 'eval_from': '20240612-025537', 'test_seed': 42, 'Tx_id': 0, 'allTx': True, 'Rx_id': None, 'Rx1_id': None, 'Rx2_id': None, 'debug_path_flag': False, 'path_id': 6, 'add_noise': True, 'optim_load': False, 'small_batch': False, 'big_batch': False, 'debug': False, 'produce_fig': False, 'wandb': False, 'replot_baseline_only': False, 'Ofunc': False, 'noise_sample': 5, 'test_data': 'genz', 'path': None, 'data_postfix': '_noise', 'data_prefix': 'allTx', 'gen_func': <function gen_data_sample_across_rx at 0x1550a1648a60>}
+Found matching repo: allTx_HFds__noise_noise_5__20240607_123136_obj_2
+========== Training Data is loaded ==========
+========== Model is initialized ==========
+loading the model for replotting, from: 20240612-025537
+loading the model for replotting, from: /proj/gaia/RayDT/dataset/processed_data/train/all_Tx_data/../../../../outputs/huggingface_test_result_noise_noise_5/models/huggingface_trained_dt_noise_noise_5_20240612-025537_2/
+========== Validation ==========
+multi_rays is empty, x tensor([2.7129, 0.6772, 0.0000], dtype=torch.float16), ray_directions tensor([-1.0000e+00, -2.9926e-03, -1.5497e-06], dtype=torch.float16)
+multi_rays is empty, x tensor([2.3242, 3.5371, 0.0000], dtype=torch.float16), ray_directions tensor([-9.9902e-01, -3.8849e-02, -6.8545e-06], dtype=torch.float16)
+========== Validation is done ==========
+========== Validation is done ==========
+========== Validation is done ==========
+========== Validation is done ==========
+========== Validation is done ==========
+========== Validation is done ==========
+========== Validation is done ==========
+========== Validation is done ==========
+========== Validation is done ==========
+========== Validation is done ==========
+========== Validation is done ==========
+multi_rays is empty, x tensor([1.7021, 0.0000, 0.2793], dtype=torch.float16), ray_directions tensor([-1.0000e+00, -8.8811e-06, -4.0474e-03], dtype=torch.float16)
+multi_rays is empty, x tensor([2.3320, 0.0000, 0.2607], dtype=torch.float16), ray_directions tensor([-1.0000e+00, -1.6689e-06, -4.0207e-03], dtype=torch.float16)
+multi_rays is empty, x tensor([2.5781, 0.0000, 0.2419], dtype=torch.float16), ray_directions tensor([-1.0000e+00, -2.3842e-06, -3.9368e-03], dtype=torch.float16)
+multi_rays is empty, x tensor([3.1250, 0.0000, 0.2064], dtype=torch.float16), ray_directions tensor([-1.0000e+00, -5.7220e-06, -3.6030e-03], dtype=torch.float16)
+multi_rays is empty, x tensor([3.2305, 0.0000, 0.1947], dtype=torch.float16), ray_directions tensor([-1.0000e+00, -7.1526e-06, -3.5954e-03], dtype=torch.float16)
+multi_rays is empty, x tensor([3.2832, 0.0000, 0.1372], dtype=torch.float16), ray_directions tensor([-1.0000e+00, -5.3644e-07, -3.7460e-03], dtype=torch.float16)
+========== Validation is done ==========
+multi_rays is empty, x tensor([2.6270, 0.0000, 0.1848], dtype=torch.float16), ray_directions tensor([-1.0000e+00, -2.5630e-06, -4.5357e-03], dtype=torch.float16)
+multi_rays is empty, x tensor([3.0547, 0.0000, 0.1603], dtype=torch.float16), ray_directions tensor([-1.0000e+00, -4.2915e-06, -4.2763e-03], dtype=torch.float16)
+multi_rays is empty, x tensor([0.5576, 0.7793, 0.0000], dtype=torch.float16), ray_directions tensor([-1.0000e+00, -3.0460e-03, -3.2187e-06], dtype=torch.float16)
+========== Validation is done ==========
+========== Validation is done ==========
+========== Validation is done ==========
+========== All rewards are saved ==========
+Average of the rewards with 5 Noisy Perturbations: 2.373547322967504
