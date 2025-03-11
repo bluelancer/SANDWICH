@@ -1,1 +1,0 @@
-python train_decision_trans.py --Tx 1 --add_noise True --produce_fig True --replot_baseline_only True
